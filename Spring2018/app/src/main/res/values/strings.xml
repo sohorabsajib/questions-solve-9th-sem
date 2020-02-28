@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Spring2018</string>
+    <string name="string1">converter celcius to fahrenheit\n and fahrenheit to celcius</string>
+
+</resources>

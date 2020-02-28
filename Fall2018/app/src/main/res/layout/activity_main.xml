@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#60FF9800"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="convert M to cm and cm to M"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter number"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="5dp"
+        >
+
+    </EditText>
+    <RadioGroup
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/m"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="meter"></RadioButton>
+        <RadioButton
+            android:id="@+id/ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="centimeter"></RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/con"
+        android:text="convert"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"></Button>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>
